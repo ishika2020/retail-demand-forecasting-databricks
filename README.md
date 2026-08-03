@@ -32,3 +32,9 @@ This is a baseline result — a natural next step would be gradient boosting (XG
 Notebooks are chained via `dbutils.notebook.run()` in `00_run_pipeline`, executing Bronze → Silver → Gold → ML sequentially. [Add a note here if you also set up a Databricks Workflow job.]
 
 ## Repo structure
+/00_run_pipeline
+/01_bronze_ingestion
+/02_silver_transform
+/03_gold_aggregation
+/04_ml_demand_forecast
+README.md
